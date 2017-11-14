@@ -56,8 +56,10 @@ MATCH (g:Group)
  ```
 
  ```
-MERGE (:topic {uuid:""})
-ON CREATE SET //
+MERGE (topc:topic )
+ON CREATE SET topic.name = "A name" //  Only sets the value if the node does not already exists
+ON MATCH SET // will effectively update
+SET // will update
 
 ```
 Exclude really common stuff
