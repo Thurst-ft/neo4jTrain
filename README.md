@@ -4,7 +4,6 @@ repo for neo4j recommendations training stuff
 ## Details:
 http://bit.ly/polycon-neo4j
 
-<<<<<<< HEAD
 ## Resource
 Using data from this api
 https://www.meetup.com/meetup_api/
@@ -104,10 +103,3 @@ Used to capture the query and do some aggregation
 
 - filter on agrigate
 - separate reading ..
-=======
-## Using meetup api
-https://www.meetup.com/meetup_api/
-
-## run this
-:play https://guides.neo4j.com/reco
->>>>>>> 5fbc029013deb84a304b0f39d0e1c9f585ce7ba2
