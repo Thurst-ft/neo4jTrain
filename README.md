@@ -111,3 +111,24 @@ Used to capture the query and do some aggregation
 ### OPTIONAL MATCH
 similar to left join in RDB
 
+## Functions
+
+#### Distance:
+Check this but it roughly like this
+
+```
+WITH point(longitude: '' latitude '') AS here
+WITH point(longitude: '' latitude '') AS there
+
+distance(here, there)
+```
+
+#### Time
+```
+timestamp()
+```
+
+##Other examples
+
+Java based example:
+https://github.com/graphaware/neo4j-reco
