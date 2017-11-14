@@ -71,6 +71,9 @@ WHERE EXISTS((Group)-[:HAS_REL]->(Topic)))
 
 WHERE NOT EXISTS((Group)-[:HAS_REL]->(Topic)))
 ```
+
+Don't forget `PROFILE` for analysis
+
  ## Useful commands
 
 Outputs the schema so you can see the constrains applied etc.
@@ -103,3 +106,8 @@ Used to capture the query and do some aggregation
 
 - filter on agrigate
 - separate reading ..
+
+
+### OPTIONAL MATCH
+similar to left join in RDB
+
